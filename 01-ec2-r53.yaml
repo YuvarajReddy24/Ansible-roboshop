@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    ami_id: aami-09c813fb71547fc4f
+    ami_id: ami-09c813fb71547fc4f
     sg_id: sg-08bed850ebb359b45 # replace with your SG ID
     zone_id: "Z00777701H4IKRG6FJNQ" # replace with your Zone ID
     domain_name: "yuvarajreddy.fun"
