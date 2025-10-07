@@ -19,3 +19,18 @@
       state: started
       enabled: yes
 
+  - name: remove the html
+    ansible.builtin.file:
+      path: /usr/share/nginx/html/
+      state: absent
+
+  - name: download frontend application
+    ansible.builtin.get_url:
+      url: https://roboshop-artifacts.s3.amazonaws.com/frontend-v3.zip
+      dest: /tmp/frontend.zip
+
+  - name: extract frontend application
+    ansible.builtin.unarchive:
+      src: /tmp/frontend.zip
+      dest: /usr/share/nginx/html
+      remote_src: yes
