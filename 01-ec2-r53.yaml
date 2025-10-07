@@ -7,7 +7,7 @@
     zone_id: "Z00777701H4IKRG6FJNQ" # replace with your Zone ID
     domain_name: "yuvarajreddy.fun"
     instances: 
-    - mongodb
+    # - mongodb
     # - redis
     # - mysql
     # - rabbitmq
