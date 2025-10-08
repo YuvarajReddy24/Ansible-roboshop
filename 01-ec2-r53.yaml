@@ -4,8 +4,8 @@
   connection: local
   vars:
     ami_id: ami-09c813fb71547fc4f
-    sg_id: sg-07c8acf3fa6b923fa # replace with your SG ID
-    zone_id: "Z0948150OFPSYTNVYZOY" # replace with your ID
+    sg_id: sg-08bed850ebb359b45 # replace with your SG ID
+    zone_id: "Z00777701H4XIKRG6FJNQ"  
     domain_name: "yuvarajreddy.fun"
     # we can pass instances through command line using -e
     # instances: 
