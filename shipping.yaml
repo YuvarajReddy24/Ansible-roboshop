@@ -71,7 +71,7 @@
     community.mysql.mysql_db:
       state: import
       name: all
-      login_host: mysql.yuvarajreddy.fun
+      login_host: mysql.daws86s.fun
       login_user: root
       login_password: RoboShop@1
       target: "{{ item }}"
@@ -87,4 +87,5 @@
       state: started
       daemon_reload: true
 
+  
   
